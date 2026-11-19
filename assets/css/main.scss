@@ -1,0 +1,32 @@
+---
+---
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+$profile-ink: #16334b;
+$profile-blue: #2b5980;
+$profile-border: #c8dbea;
+
+body { color: $profile-ink; background: #eef7ff; }
+.masthead, .greedy-nav { background: #eef7ff; }
+.masthead { border-bottom-color: $profile-border; }
+.greedy-nav a { color: $profile-blue; }
+.page__title { letter-spacing: -.035em; }
+.profile-intro { max-width: 62ch; font-size: 1.08em; }
+.profile-role { color: $profile-blue; font-weight: 700; font-size: 1.12em; margin-bottom: .45em; }
+.profile-section { border-top: 1px solid $profile-border; padding-top: 1.5rem; margin-top: 2rem; }
+.profile-section > h2 { border-bottom: 0; margin-top: 0; }
+.experience-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.experience-card { background: #f3f9fd; border: 1px solid $profile-border; border-radius: 8px; padding: 1.15rem; }
+.experience-card h3 { margin: 0 0 .2rem; font-size: 1.15rem; }
+.experience-card h3 a { color: $profile-blue; text-decoration: none; }
+.experience-card h3 a:hover { text-decoration: underline; }
+.experience-card p { margin: .25rem 0 .55rem; }
+.experience-card .role { font-weight: 650; }
+.experience-card .dates { color: #53718a; font-size: .9em; }
+.experience-card p:last-child { margin-bottom: 0; }
+.leadership-list { list-style: none; padding: 0; }
+.leadership-list li { padding: .45rem 0; border-bottom: 1px solid #e2edf5; }
+.education-entry + .education-entry { margin-top: 1rem; }
+.education-entry h3 { margin: 0; font-size: 1.1rem; }
+@media (max-width: 600px) { .experience-grid { grid-template-columns: 1fr; } }

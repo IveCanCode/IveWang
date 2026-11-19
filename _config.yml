@@ -1,0 +1,16 @@
+title: Ive Wang
+name: Ive Wang
+description: MPhil student in Bioengineering at HKUST
+url: https://ivecancode.github.io
+baseurl: /IveWang
+repository: ivecancode/IveWang
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+minimal_mistakes_skin: air
+locale: en-US
+markdown: kramdown
+permalink: /:categories/:title/
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+include: [_pages]
+exclude: [vendor, Gemfile.lock]
