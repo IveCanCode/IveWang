@@ -6,6 +6,15 @@ baseurl: /IveWang
 repository: ivecancode/IveWang
 remote_theme: mmistakes/minimal-mistakes@4.26.2
 minimal_mistakes_skin: air
+author:
+  avatar: /assets/images/ive-wang-profile.jpg
+  links:
+    - label: LinkedIn
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/ive-beibei-wang-97b8ba228/
+    - label: Email
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:Ivedope@gmail.com"
 locale: en-US
 markdown: kramdown
 permalink: /:categories/:title/

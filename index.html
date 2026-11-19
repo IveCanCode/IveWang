@@ -2,11 +2,16 @@
 layout: single
 title: "Ive Wang"
 permalink: /
-classes: wide
+author_profile: true
 ---
 
+<script>
+  document.querySelectorAll('.masthead a[href*="#"]').forEach(function (link) {
+    link.setAttribute('data-scroll-ignore', '');
+  });
+</script>
 <div id="about" class="profile-intro">
-<img class="profile-photo" src="{{ '/assets/images/ive-wang-profile.jpg' | relative_url }}" alt="Ive Wang" width="600" height="600" fetchpriority="high">
+
 <p class="profile-role">MPhil student in Bioengineering at HKUST</p>
 <p>I study synthetic biology and living therapeutics, with interests in knowledge transfer and bringing research toward commercialization.</p>
 </div>
