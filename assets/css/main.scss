@@ -1,5 +1,6 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500&display=swap');
 @import "minimal-mistakes/skins/air";
 @import "minimal-mistakes";
 
@@ -38,3 +39,17 @@ html { scroll-padding-top: 5rem; }
 .leadership-list li { padding: .45rem 0; border-bottom: 1px solid #e2edf5; }
 .education-entry + .education-entry { margin-top: 1rem; }
 .education-entry h3 { margin: 0; font-size: 1.1rem; }
+
+body { font-family: Inter, system-ui, sans-serif; }
+.page__content { font-size: 16px; line-height: 1.6; }
+.page__title, .profile-section > h2 { font-family: 'Source Serif 4', Georgia, serif; font-weight: 500; }
+.page__title { font-size: clamp(32px, 3vw, 38px); line-height: 1.16; letter-spacing: -.025em; }
+.profile-section > h2 { font-size: 24px; }
+.profile-intro { font-size: 17px; }
+.profile-role { font-size: 16px; font-weight: 600; }
+.experience-card h3, .education-entry h3 { font-size: 18px; font-weight: 600; }
+.experience-card .role { font-weight: 500; }
+.experience-card .dates, .sidebar .author__urls { font-size: 14px; }
+.greedy-nav a { font-size: 14px; font-weight: 500; }
+.masthead__inner-wrap { padding-top: .35rem; padding-bottom: .35rem; }
+.masthead .greedy-nav .visible-links a, .masthead .site-title { padding-top: .35rem; padding-bottom: .35rem; }
